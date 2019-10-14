@@ -236,7 +236,7 @@
     $webClientPrintControllerAbsoluteURL = substr($currentAbsoluteURL, 0, strrpos($currentAbsoluteURL, '/')).'/WebClientPrintController.php';
     
     //_DemoPrintCommandsController.php is at the same page level as WebClientPrint.php
-    $demoPrintCommandsControllerAbsoluteURL = substr($currentAbsoluteURL, 0, strrpos($currentAbsoluteURL, '/')).'/DemoPrintCommandsContoller.php';
+    $demoPrintCommandsControllerAbsoluteURL = substr($currentAbsoluteURL, 0, strrpos($currentAbsoluteURL, '/')).'/DemoPrintCommandsController.php';
     
     //Specify the ABSOLUTE URL to the WebClientPrintController.php and to the file that will create the ClientPrintJob object (DemoPrintCommandsController.php)
     echo WebClientPrint::createScript($webClientPrintControllerAbsoluteURL, $demoPrintCommandsControllerAbsoluteURL, session_id());
