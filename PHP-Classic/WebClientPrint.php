@@ -5,13 +5,13 @@ use Exception;
 use ZipArchive;
 
 //phpseclib is required for Encryption and Password Protected file printing feature
-include '/phpseclib/Math/BigInteger.php';
-include '/phpseclib/Crypt/Hash.php';
-include '/phpseclib/Crypt/Random.php';
-include '/phpseclib/Crypt/Base.php';
-include '/phpseclib/Crypt/RSA.php';
-include '/phpseclib/Crypt/Rijndael.php';
-include '/phpseclib/Crypt/AES.php';
+include 'phpseclib/Math/BigInteger.php';
+include 'phpseclib/Crypt/Hash.php';
+include 'phpseclib/Crypt/Random.php';
+include 'phpseclib/Crypt/Base.php';
+include 'phpseclib/Crypt/RSA.php';
+include 'phpseclib/Crypt/Rijndael.php';
+include 'phpseclib/Crypt/AES.php';
 
 // Setting WebClientPrint
 WebClientPrint::$licenseOwner = '';
