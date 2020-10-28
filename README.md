@@ -8,7 +8,7 @@ Learn more about [**WebClientPrint 5.0 for PHP**](http://neodynamic.com/products
 ## The WebClientPrint5PHP-Sample Repository
 This PHP project is a sample to getting you started with WebClientPrint 5.0 for PHP Solution
 
-Website projects for **Classic PHP** as well as for **Laravel 5 (coming soon...)** are provided
+Website project for **Classic PHP**. If you're using **Laravel**, then please refer to the [**WebClientPrint for PHP Articles**](http://neodynamic.com/products/printing/raw-data/php/articles/) that includes many printing topics with source code. 
 
 ## Know How WebClientPrint 5.0 for PHP Works
 Refer to the [Online Help Documentation](http://neodynamic.com/Products/Help/WebClientPrintPHP5.0/index.html)
